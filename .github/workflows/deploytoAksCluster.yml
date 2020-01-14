@@ -19,7 +19,7 @@ jobs:
     
     - uses: azure/k8s-set-context@v1
       with:
-         kubeconfig: ${{ secrets.aks_bugbash162-2_kubeConfig }}
+         kubeconfig: ${{ secrets.aks_bugbash162_kubeConfig }}
       id: login
     
     - name: Create namespace
